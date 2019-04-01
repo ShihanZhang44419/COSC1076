@@ -28,12 +28,17 @@ public:
    // Return a DEEP COPY of the ParticleList of all particles representing
    //    the current possible locations of the robot
    ParticleList* getParticles();
+   
 
 
    /*                                           */
    /* YOU MAY ADD YOUR MODIFICATIONS HERE       */
    /*                                           */
+private:
 
+   Grid maze;
+   int rows;
+   int cols;
 };
 
 #endif // COSC_ASS_ONE_PARTICLE_FILTER

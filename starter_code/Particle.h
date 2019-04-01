@@ -1,4 +1,3 @@
-
 #ifndef COSC_ASS_ONE_PARTICLE
 #define COSC_ASS_ONE_PARTICLE
 
@@ -7,6 +6,8 @@
 class Particle {
 public:
 
+   Particle(int xCo, int yCo, Orientation action);
+   
    /*                                           */
    /* DO NOT MOFIFY ANY CODE IN THIS SECTION    */
    /*                                           */
@@ -24,13 +25,17 @@ public:
    /*                                           */
    /* YOU MAY ADD YOUR MODIFICATIONS HERE       */
    /*                                           */
+private:
+
+   int xCo;
+   int yCo;
+   Orientation action;
 
 };
 
+   
 /*                                           */
 /* DO NOT MOFIFY THIS TYPEDEF                */
 /*                                           */
 // Pointer to a Particle
 typedef Particle* ParticlePtr;
-
-#endif // COSC_ASS_ONE_PARTICLE

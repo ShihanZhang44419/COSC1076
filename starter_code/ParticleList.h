@@ -8,6 +8,8 @@
 class ParticleList {
 public:
 
+ParticleList(int*particles[], int numParticles);
+
    /*                                           */
    /* DO NOT MOFIFY ANY CODE IN THIS SECTION    */
    /*                                           */

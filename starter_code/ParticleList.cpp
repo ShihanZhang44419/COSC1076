@@ -12,7 +12,7 @@
 #endif
 
 // Initialise a new particle filter with a given maze of size (x,y)
-ParticleList::ParticleList() {
+ParticleList::ParticleList(int*particles[],int numParticles) {
 }
 
 // Clean-up the particle list
