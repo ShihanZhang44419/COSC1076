@@ -26,5 +26,5 @@ void ParticleFilter::newObservation(Grid observation) {
 //    the current possible locations of the robot
 ParticleList* ParticleFilter::getParticles() {
    
-   return NULL;
+   return  NULL;
 }

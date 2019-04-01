@@ -8,8 +8,6 @@
 class ParticleList {
 public:
 
-ParticleList(int*particles[], int numParticles);
-
    /*                                           */
    /* DO NOT MOFIFY ANY CODE IN THIS SECTION    */
    /*                                           */
@@ -25,6 +23,7 @@ ParticleList(int*particles[], int numParticles);
    int getNumberParticles();
 
    // Get a pointer to the i-th particle in the list
+   // 这个等于 Particle。get（int i）
    ParticlePtr get(int i);
 
    // Add a particle (as a pointer) to the list

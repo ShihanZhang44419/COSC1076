@@ -8,6 +8,7 @@ public:
 
    Particle(int xCo, int yCo, Orientation action);
    
+   ~Particle();
    /*                                           */
    /* DO NOT MOFIFY ANY CODE IN THIS SECTION    */
    /*                                           */
@@ -38,4 +39,5 @@ private:
 /* DO NOT MOFIFY THIS TYPEDEF                */
 /*                                           */
 // Pointer to a Particle
-typedef Particle* ParticlePtr;
+typedef Particle *ParticlePtr;
+// ParticlePtr 指针是 指向Particle class的指针

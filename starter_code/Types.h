@@ -18,6 +18,7 @@ typedef int Orientation;
 
 // A 2D array to represent the maze or observations
 // REMEMBER: in a grid, the location (x,y) is found by grid[y][x]!
+//Grid指针 是指向 由2D arry【y】【x】数据组成的指针的 指针
 typedef char** Grid;
 
 // Observation information

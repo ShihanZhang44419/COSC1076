@@ -12,8 +12,11 @@
 #endif
 
 // Initialise a new particle filter with a given maze of size (x,y)
-ParticleList::ParticleList(int*particles[],int numParticles) {
+ParticleList::ParticleList() {
+  // this-> particles =  particles;
+   
 }
+
 
 // Clean-up the particle list
 ParticleList::~ParticleList() {
@@ -21,12 +24,13 @@ ParticleList::~ParticleList() {
 
 // Number of particles in the ParticleList
 int ParticleList::getNumberParticles() {
-   return 0;
+   return numParticles;
 }
 
 // Get a pointer to the i-th particle in the list
+//指针类型的 method get（int i）
 ParticlePtr ParticleList::get(int i) {
-   return NULL;
+   return &getNumberParticles;
 }
 
 // Add a particle (as a pointer) to the list
