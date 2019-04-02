@@ -1,12 +1,12 @@
+
 #include "Particle.h"
 
-Particle::Particle(int xCo, int yCo, Orientation action) {
+Particle::Particle(int xCo, int yCo, Orientation action){
    this->xCo = xCo;
    this->yCo = yCo;
    this->action = action;
-
+   
 }
-
 // x-co-ordinate of the particle
 int Particle::getX() {
    return this->xCo;

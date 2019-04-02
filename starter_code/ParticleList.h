@@ -14,7 +14,7 @@ public:
 
 
    // Create a New Empty List
-   ParticleList();
+   ParticleList(ParticlePtr particles, int numParticles);
 
    // Clean-up the particle list
    ~ParticleList();
@@ -23,7 +23,6 @@ public:
    int getNumberParticles();
 
    // Get a pointer to the i-th particle in the list
-   // 这个等于 Particle。get（int i）
    ParticlePtr get(int i);
 
    // Add a particle (as a pointer) to the list
