@@ -8,7 +8,7 @@ public:
 
    Particle(int xCo, int yCo, Orientation action);
    
-   ~Particle();
+   
    /*                                           */
    /* DO NOT MOFIFY ANY CODE IN THIS SECTION    */
    /*                                           */

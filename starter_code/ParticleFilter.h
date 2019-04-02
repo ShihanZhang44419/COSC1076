@@ -15,7 +15,6 @@ public:
    /* DO NOT MOFIFY ANY CODE IN THIS SECTION    */
    /*                                           */
 
-
    // Initialise a new particle filter with a given maze of size (x,y)
    ParticleFilter(Grid maze, int rows, int cols);
 
@@ -29,8 +28,7 @@ public:
    //    the current possible locations of the robot
    ParticleList* getParticles();
    
-
-
+   
    /*                                           */
    /* YOU MAY ADD YOUR MODIFICATIONS HERE       */
    /*                                           */

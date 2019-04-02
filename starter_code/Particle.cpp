@@ -6,9 +6,7 @@ Particle::Particle(int xCo, int yCo, Orientation action) {
    this->action = action;
 
 }
-Particle::~Particle(){
-   
-}
+
 // x-co-ordinate of the particle
 int Particle::getX() {
    return this->xCo;

@@ -25,6 +25,5 @@ void ParticleFilter::newObservation(Grid observation) {
 // Return a DEEP COPY of the ParticleList of all particles representing
 //    the current possible locations of the robot
 ParticleList* ParticleFilter::getParticles() {
-   
-   return  NULL;
+   return NULL;
 }
